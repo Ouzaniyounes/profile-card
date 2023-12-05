@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+body {
+    background-image: url(../res/close-up-view-dark-fresh-roasted-coffee-beans-coffee-beans-background_141793-27283.avif);
+    margin: 0px;
+}
+.menu-comtainer {
+    width: 500px;
+    height: 720px;
+    margin-left: 500px ;
+    
+}
+.menu--style {
+    background-color: rgb(224, 193, 141);
+}
+h1 {
+    padding-top: 20px;
+}
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu__p p {
+    text-transform: capitalize;
+    font-style: italic;
+}
+.menu__p  {
+    text-align: center;
+}
+.menu--ligne {
+    height: 4px;
+    width: 460px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(151, 10, 10);
+}
+main p img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+h2 , main p.menu__p {
+    margin: 0px;
+}
+
+.menu__paragraph-right , .menu__paragraph-left {
+    margin-top: 0px;
+}
+ .menu__paragraph-right {
+    text-align: right;
+    margin-right: 1em;
+}
+
+.menu__paragraph-left {
+    margin-left: 1em;
+} 
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.flex div {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__link {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+.menu__link a {
+    color: black;
+}
+.menu__link a:hover {
+    color: rgb(151, 10, 10)
+}
+footer p {
+    text-align: center;
+}
+
+
+    
